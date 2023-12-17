@@ -1,0 +1,10 @@
+def chuoi_nhi_phan(chieu_dai, tien_to=""):
+  if chieu_dai == 0:
+      print(tien_to)
+  else:
+      print(tien_to)
+      chuoi_nhi_phan(chieu_dai - 1, tien_to + "*")
+
+
+chieu_dai = int(input())
+chuoi_nhi_phan(chieu_dai)

@@ -1,0 +1,12 @@
+def so_bo_test():
+    n = input()
+    numbers = [int(num) for num in n.split()]
+    if len(numbers) < 2:
+        print()
+    else:
+        n = sorted(numbers, reverse=True)
+
+        n2 = n[1]
+
+        print(n2)
+for i in range(int(input())): so_bo_test()

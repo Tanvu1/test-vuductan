@@ -1,0 +1,6 @@
+def so_bo_test(sum):
+    n = input()
+    numbers = [int(num) for num in n.split()]
+    sum = sum(num for num in numbers if num % 2 != 0)
+    print(sum)
+for i in range(int(input())): so_bo_test(sum)
